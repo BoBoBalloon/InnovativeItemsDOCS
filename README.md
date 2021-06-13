@@ -63,3 +63,102 @@ blood-blade:
 
 A list of all valid item flags and their usage can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
 
+Another feature provided by this plugin is support for attributes, attributes can be used to change and set basic values for this item and the player using it. This plugin handles attributes in an interesting way, this is because buffs (or debuffs) given by attributes are on an equipment slot basis, meaning it would have a different effect when held in your main hand slot vs. your chestplate slot. This is useful if you want to make armor that buffs the users damage, but you dont want it to buff their damage when held in their hand. An example of attributes is provided below:
+
+```
+blood-blade:
+  material: 'DIAMOND_SWORD'
+  display-name: '&r&4&lBlood Blade'
+  lore:
+  - '&r&7&oA blade made of the blood of the god of war...'
+  - '&r&7&oLegend says that it was from a paper cut'
+  enchantments:
+    DAMAGE_ALL: 150
+  flags:
+    - 'HIDE_ENCHANTS'
+  attributes:
+    ALL:
+      GENERIC_MAX_HEALTH: 20
+    HAND:
+      GENERIC_MAX_HEALTH: 500
+      GENERIC_MOVEMENT_SPEED: 50
+```
+
+This example would make it so when a player was holding the blood blade in their main hand, the base value of their max health would increase by 520 (because the *ALL* field is in addition to, not in place of) and the base value of their movement speed would increase by 50. A list of MOST valid equipment slots can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/EquipmentSlot.html) (keep in mind that *ALL* is also a valid option, it just does not appear on the provided list). A list of valid attributes, can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html)
+
+On top of that there is also support for custom model data in case you have your players using a custom texture pack, an example can be found here:
+
+```
+blood-blade:
+  material: 'DIAMOND_SWORD'
+  display-name: '&r&4&lBlood Blade'
+  custom-model-data: 987 #LOOK HERE!!!
+  lore:
+  - '&r&7&oA blade made of the blood of the god of war...'
+  - '&r&7&oLegend says that it was from a paper cut'
+  enchantments:
+    DAMAGE_ALL: 150
+  flags:
+    - 'HIDE_ENCHANTS'
+  attributes:
+    ALL:
+      GENERIC_MAX_HEALTH: 20
+    HAND:
+      GENERIC_MAX_HEALTH: 500
+      GENERIC_MOVEMENT_SPEED: 50
+```
+
+The example above has the *custom-model-data* field, this would set the custom model data of the blood blade item to 987.
+
+Additionally, we also provide support for making items unbreakable, an example can be found here:
+
+```
+blood-blade:
+  material: 'DIAMOND_SWORD'
+  display-name: '&r&4&lBlood Blade'
+  custom-model-data: 987
+  unbreakable: true #LOOK HERE!!!
+  lore:
+  - '&r&7&oA blade made of the blood of the god of war...'
+  - '&r&7&oLegend says that it was from a paper cut'
+  enchantments:
+    DAMAGE_ALL: 150
+  flags:
+    - 'HIDE_ENCHANTS'
+  attributes:
+    ALL:
+      GENERIC_MAX_HEALTH: 20
+    HAND:
+      GENERIC_MAX_HEALTH: 500
+      GENERIC_MOVEMENT_SPEED: 50
+```
+
+The example above shows how to use the *unbreakable* field to make an item unbreakable, if you want your item to not be unbreakable, there is no need to include this field as all items have this field set to false by default.
+
+Last but not least, we also provide support for linking custom abilities written by you, to be linked to the items you create, an example can be found here:
+
+```
+blood-blade:
+  material: 'DIAMOND_SWORD'
+  display-name: '&r&4&lBlood Blade'
+  ability: 'lifesteal' #LOOK HERE!!!
+  custom-model-data: 987
+  unbreakable: true
+  lore:
+  - '&r&7&oA blade made of the blood of the god of war...'
+  - '&r&7&oLegend says that it was from a paper cut'
+  enchantments:
+    DAMAGE_ALL: 150
+  flags:
+    - 'HIDE_ENCHANTS'
+  attributes:
+    ALL:
+      GENERIC_MAX_HEALTH: 20
+    HAND:
+      GENERIC_MAX_HEALTH: 500
+      GENERIC_MOVEMENT_SPEED: 50
+```
+
+The example above would link the ability by the name of *lifesteal* to the blood blade item
+
+Keep in mind,, not all these values are required, the only required value is the material field and the name field, as long as those are present, the item will load.
