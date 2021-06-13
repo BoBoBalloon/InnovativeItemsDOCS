@@ -23,12 +23,14 @@ blood-blade:
   custom-model-data: 987
   unbreakable: true
   lore:
-  - '&r&7&oA blade made of the blood of the god of war...'
-  - '&r&7&oLegend says that it was from a paper cut'
+  - ''
+  - '&7&oA blade made of the blood of the &4&ogod of war&7&o...'
+  - '&7&oLegend says that it was from a paper cut'
   enchantments:
     DAMAGE_ALL: 150
   flags:
     - 'HIDE_ENCHANTS'
+    - 'HIDE_ATTRIBUTES'
   attributes:
     ALL:
       GENERIC_MAX_HEALTH: 20
