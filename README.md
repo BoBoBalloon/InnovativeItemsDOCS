@@ -5,6 +5,8 @@ Documentation for the Innovative Items plugin, a customizable plugin that can al
 
 This plugin has many capabilities from creating custom items and abilities to a developer API that allows users with Java experience to build their own keywords!
 
+**Please keep in mind that this plugin depends on the plugin [NBTAPI](https://www.spigotmc.org/resources/nbt-api.7939/), without it installed, Innovative Items will not load.**
+
 Below will show configuration examples and link you to the proper wiki page
 
 # Custom Items
