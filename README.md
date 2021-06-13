@@ -7,7 +7,7 @@ This plugin has many capabilities from creating custom items and abilities to a 
 
 **Please keep in mind that this plugin depends on the plugin [NBTAPI](https://www.spigotmc.org/resources/nbt-api.7939/), without it installed, Innovative Items will not load.**
 
-Below will show configuration examples and link you to the proper wiki page
+You can find configuration examples below and links to the proper wiki pages that describe them in more detail.
 
 # Custom Items
 
