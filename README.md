@@ -39,6 +39,8 @@ blood-blade:
       GENERIC_MOVEMENT_SPEED: 50
 ```
 
+![blood-blade](https://user-images.githubusercontent.com/61363161/121826107-18dfc680-cc84-11eb-8b4b-00195290deca.png)
+
 # Abilities
 
 Abilities allow you to give your custom items extra flavor and provide a greater experience to your players. Just like items, you can find the *abilities* folder inside the root directory for the plugin. From there you you can place a .yml file into it. You can put as many .yml files as you like and can have as many abilities as you like stored in each .yml file. This allows you to organize your abilities by preference.
