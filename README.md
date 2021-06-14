@@ -18,7 +18,7 @@ An example for an item is provided here, a full overview of the item config sect
 ```
 blood-blade:
   material: 'DIAMOND_SWORD'
-  display-name: '&r&4&lBlood Blade'
+  display-name: '&4&lBlood Blade'
   ability: 'lifesteal'
   custom-model-data: 987
   unbreakable: true
