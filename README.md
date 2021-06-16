@@ -56,3 +56,15 @@ test-ability:
     - 'effect(?player, JUMP, 80, 2)'
     - 'particle(?player, FLAME, 20, 0, 0, 0)'
 ```
+
+# Garbage Collector
+
+{explain what it is and add a link to the wiki page} (wiki page has how to control it in config.yml)
+
+# Debug Level
+
+{explain what it is and add a link to the wiki page} (wiki page has how to control it in config.yml or via debug command)
+
+# Developer API
+
+{explain what it is and add a link to the wiki page} (wiki page has how to add the dependancy in maven or gradle and what classes to use)
