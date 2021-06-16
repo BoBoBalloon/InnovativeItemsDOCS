@@ -47,4 +47,12 @@ Abilities allow you to give your custom items extra flavor and provide a greater
 
 An example for an ability is provided here, a full overview of the ability config section can be found [here](https://github.com/BoBoBalloon/InnovativeItemsDOCS/wiki/Custom-Abilities):
 
-{put example config here} //TODO
+```
+test-ability:
+  trigger: 'right-click'
+  keywords:
+    - 'damage(?player, 1)'
+    - 'delay(40)'
+    - 'effect(?player, JUMP, 80, 2)'
+    - 'particle(?player, FLAME, 20, 0, 0, 0)'
+```
