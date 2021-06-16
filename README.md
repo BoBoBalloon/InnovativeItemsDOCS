@@ -1,7 +1,7 @@
 # Overview
 ***DISCLAIMER: THIS PLUGIN IS IN EARLY ALPHA TESTING AND IS INCOMPLETE***
 
-Documentation for the Innovative Items plugin, a customizable plugin that makes it possible for those with no Java experience to build their own custom items and abilities.
+Documentation for the Innovative Items, a plugin that makes it possible for those with no Java experience to build their own custom items and abilities.
 
 This plugin has many capabilities from creating custom items and abilities to a developer API that allows users with Java experience to build their own keywords.
 
