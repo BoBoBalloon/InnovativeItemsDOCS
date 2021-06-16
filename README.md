@@ -67,4 +67,4 @@ test-ability:
 
 # Developer API
 
-{explain what it is and add a link to the wiki page} (wiki page has how to add the dependancy in maven or gradle and what classes to use)
+{explain what it is and add a link to the wiki page} (wiki page has how to add the dependency in maven or gradle and what classes to use)
