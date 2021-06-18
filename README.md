@@ -59,7 +59,7 @@ test-ability:
 
 # Garbage Collector
 
-{explain what it is and add a link to the wiki page} (wiki page has how to control it in config.yml)
+When running a server with custom items, there will inevitably be a crazy balance issue where an item is too strong or too weak. You can always change the configuration file to be more fair, but what about all the items currently in circulation? This is where the garbage collection system comes in. This is a very powerful system and should be handled with care, please read more about it [here](https://github.com/BoBoBalloon/InnovativeItemsDOCS/wiki/Garbage-Collector).
 
 # Debug Level
 
