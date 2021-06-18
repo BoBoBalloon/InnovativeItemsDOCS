@@ -63,7 +63,7 @@ When running a server with custom items, there will inevitably be a crazy balanc
 
 # Debug Level
 
-{explain what it is and add a link to the wiki page} (wiki page has how to control it in config.yml or via debug command)
+It's in the nature of any customizable plugin that things will go wrong, whether it be from a bug or a configuration syntax mishap. Because of this, it is important to be able to detect bugs and find out what's going on under the hood of the plugin. This is where debug levels come in. Debug levels as a whole are just to assist what type of debug messages are sent in console and what debug messages are ignored. For example, you as a server owner don't care about every little thing the plugin is doing, and so you don't want your console getting flooded with information you don't care about. To combat this, you can lower the debug level. The lower the debug level, the less information you are given in console. You can read more about it [here](https://github.com/BoBoBalloon/InnovativeItemsDOCS/wiki/Debug-Level).
 
 # Developer API
 
