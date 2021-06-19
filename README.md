@@ -67,4 +67,4 @@ It's in the nature of any customizable plugin that things will go wrong, whether
 
 # Developer API
 
-{explain what it is and add a link to the wiki page} (wiki page has how to add the dependency in maven or gradle and what classes to use)
+As shown throughout the rest of the wiki pages and documentation, this is a pretty customizable plugin, it allows those with zero Java experience to make their dreams a reality. But the functionality of the keywords used must come from somewhere? Well, this section of the documentation will go over the keyword manager system and how to create and register your own custom keywords. If you are a Java developer and are interested in adding your own keywords you can take a peak at the tutorial [here](https://github.com/BoBoBalloon/InnovativeItemsDOCS/wiki/Developer-API).
