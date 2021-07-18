@@ -22,7 +22,6 @@ blood-blade:
   ability: 'lifesteal'
   custom-model-data: 987
   unbreakable: true
-  placeable: false
   lore:
     - ''
     - '&7&oA blade made of the blood of the &4&ogod of war&7&o...'
