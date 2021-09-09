@@ -63,6 +63,10 @@ test-ability:
 
 When running a server with custom items, it is likely that there will be a balance issue where an item is too strong or too weak. You can change the configuration file to be more fair, but what about all the items currently in circulation? This is where the garbage collection system comes in. This is a very powerful system and should be handled with care, please read more about it [here](https://github.com/BoBoBalloon/InnovativeItemsDOCS/wiki/Garbage-Collector).
 
+# Item Defender
+
+When making a minecraft server, it is best to assume that not all your players are knowledgeable about the backend work that is done to make everything run smoothly. Because of this some players may try and use custom items you have made in crafting recipes that will destroy the custom item. After that it would be safe to assume that they would come to you asking for help to give them back their item. But from your perspective this could be a player who is lying to you to get their hands on a valuable item for free. To prevent this from happening, the item defender system was created. You can read more about it [here](https://github.com/BoBoBalloon/InnovativeItemsDOCS/wiki/Item-Defender).
+
 # Debug Level
 
 It's in the nature of any customizable plugin that things will go wrong, whether it be from a bug or a configuration syntax mishap.  Because of this, it is important to be able to detect bugs and find out what's going on behind a plugin. This is where debug levels come in. Debug levels as a whole are to assist what type of debug messages are sent in console and what debug messages are ignored. For example, you as a server owner don't care about every little thing the plugin is doing.  You don't want your console getting flooded with information you don't care about. To combat this, you can lower the debug level. The lower the debug level, the less information you are given in console. You can read more about it [here](https://github.com/BoBoBalloon/InnovativeItemsDOCS/wiki/Debug-Level).
@@ -70,10 +74,6 @@ It's in the nature of any customizable plugin that things will go wrong, whether
 # Update Checker
 
 When using any plugin, it is important to stay up to date with new changes so you are able to take advantage of new features and improve the quality of your server. But checking spigot constantly for new updates is quite annoying, this is where the update checker comes in. You can read more about it [here](https://github.com/BoBoBalloon/InnovativeItemsDOCS/wiki/Update-Checker).
-
-# Item Defender
-
-When making a minecraft server, it is best to assume that not all your players are knowledgeable about the backend work that is done to make everything run smoothly. Because of this some players may try and use custom items you have made in crafting recipes that will destroy the custom item. After that it would be safe to assume that they would come to you asking for help to give them back their item. But from your perspective this could be a player who is lying to you to get their hands on a valuable item for free. To prevent this from happening, the item defender system was created. You can read more about it [here](https://github.com/BoBoBalloon/InnovativeItemsDOCS/wiki/Item-Defender).
 
 # Developer API
 
