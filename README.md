@@ -50,6 +50,7 @@ An example for an ability is provided below, a full overview of the ability conf
 ```
 test-ability:
   trigger: 'right-click'
+  cooldown: 20
   conditions:
     - 'isclearweather()'
   keywords:
