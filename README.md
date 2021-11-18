@@ -11,7 +11,7 @@ Configuration examples are listed below as well as links to the proper wiki page
 
 # Custom Items
 
-Custom items are what makes Innovative Items so amazing. The amount of options you as a server owner are given, allow you to acomplish what you're looking for without spending a lot of time learning Java and the Spigot API. You can make custom items by going into the plugin root folder and then going into the folder named *items*. After you have found the items folder, you can place a .yml file into it. You can add as many .yml files as you like into the folder.  You can have as many items as you like stored in each .yml file. This allows you to organize your items by preference.
+Custom items are what makes Innovative Items so amazing. The amount of options you as a server owner are given, allow you to acomplish what you're looking for without spending a lot of time learning Java and the Spigot API. You can make custom items by going into the plugin root folder and then going into the folder named *items*. After you have found the items folder, you can place a .yml file into it. You can add as many .yml files as you like into the folder.  If you have the premium version of the plugin you can have as many items as you like stored in each .yml file. This allows you to organize your items by preference.
 
 An example for an item is provided below, a full overview of the item config section can be found [here](https://github.com/BoBoBalloon/InnovativeItemsDOCS/wiki/Custom-Items):
 
@@ -43,7 +43,7 @@ blood-blade:
 
 # Abilities
 
-Abilities allow you to give your custom items extra flavor and provide a greater experience to your players. Just like the items section, you can find the *abilities* folder inside the root directory for the plugin. From there you can place a .yml file into it. You can add as many .yml files as you like into the folder.  You can have as many abilities as you like stored in each .yml file. This allows you to organize your abilities by preference.
+Abilities allow you to give your custom items extra flavor and provide a greater experience to your players. Just like the items section, you can find the *abilities* folder inside the root directory for the plugin. From there you can place a .yml file into it. You can add as many .yml files as you like into the folder.  If you have the premium version of the plugin you can have as many abilities as you like stored in each .yml file. This allows you to organize your abilities by preference.
 
 An example for an ability is provided below, a full overview of the ability config section can be found [here](https://github.com/BoBoBalloon/InnovativeItemsDOCS/wiki/Custom-Abilities):
 
