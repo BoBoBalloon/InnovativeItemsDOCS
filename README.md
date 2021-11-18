@@ -1,7 +1,7 @@
 # Overview
 Documentation for Innovative Items, a plugin that makes it possible for those with no Java experience to build their own custom items and abilities.
 
-This plugin has many capabilities from creating custom items and abilities to a developer API that allows users with Java experience to build their own keywords.
+This plugin has many capabilities from creating custom items and abilities to a developer API that allows users with Java experience to build their own functions.
 
 **Please keep in mind that this plugin depends on the plugin [NBTAPI](https://www.spigotmc.org/resources/nbt-api.7939/).  Without the plugin installed, Innovative Items will not load.**
 
