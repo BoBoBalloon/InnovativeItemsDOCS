@@ -19,7 +19,7 @@ An example for an item is provided below, a full overview of the item config sec
 blood-blade:
   material: 'DIAMOND_SWORD'
   display-name: '&4&lBlood Blade'
-  ability: 'lifesteal'
+  ability: 'lifesteal' # would only work if you have an ability with the identifier of "lifesteal"
   custom-model-data: 987
   unbreakable: true
   lore:
