@@ -22,6 +22,7 @@ blood-blade:
   ability: 'lifesteal' # would only work if you have an ability with the identifier of "lifesteal"
   custom-model-data: 987
   unbreakable: true
+  soulbound: true
   lore:
     - ''
     - '&7&oA blade made of the blood of the &4&ogod of war&7&o...'
