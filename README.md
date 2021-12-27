@@ -52,7 +52,8 @@ An example for an ability is provided below, a full overview of the ability conf
 test-ability:
   trigger: 'right-click'
   cooldown: 20
-  show-cooldown: true
+  show-cooldown: '&cYou can use this ability again in {cooldown}'
+  show-cooldown-type: 'ACTION_BAR'
   conditions:
     - 'isclearweather()'
   keywords:
