@@ -1,4 +1,6 @@
 # Overview
+![logo (old)](https://user-images.githubusercontent.com/61363161/159143095-b7917496-ff45-43d4-9832-baa08281e973.png)
+
 Documentation for Innovative Items, a plugin that makes it possible for those with no Java experience to build their own custom items and abilities.
 
 This plugin has many capabilities from creating custom items and abilities to a developer API that allows users with Java experience to build their own functions.
