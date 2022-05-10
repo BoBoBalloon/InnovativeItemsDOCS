@@ -35,7 +35,7 @@ blood-blade:
     - 'HIDE_ENCHANTS'
     - 'HIDE_ATTRIBUTES'
   attributes:
-    ALL:
+    ANY:
       GENERIC_MAX_HEALTH: 20
     HAND:
       GENERIC_MAX_HEALTH: 500
