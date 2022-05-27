@@ -25,6 +25,7 @@ blood-blade:
   custom-model-data: 987
   unbreakable: true
   soulbound: true
+  max-durability: 10
   lore:
     - ''
     - '&7&oA blade made of the blood of the &4&ogod of war&7&o...'
